@@ -1,0 +1,490 @@
+@media screen and (max-width: 769px) {
+    html {
+        box-sizing: border-box;
+        font-size: 16px;
+        width: 375px;
+        height: 994px;
+    }
+    
+    body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+        margin: 0;
+        padding: 0;
+        font-weight: lighter;
+    }
+    
+    body{
+        font-family: 'Encode Sans Condensed';
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: darkblue;
+        padding: 15px 0;
+        width: 99vw;
+    }
+
+    .header {
+        color: orange;
+        text-align: center;
+        width: 273px;
+        height: 95px;
+        top: 33px;
+    }
+
+    .header-list {
+        list-style-type: none;
+        color: darkblue;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 10vh;
+    }
+
+    .phone {
+        width: 325px;
+        height: 232px;
+        top: 158px;
+        left: 43px;
+    }
+
+    .search-bar {
+        color: grey;
+        background-image: url('../images/search-icon-white.svg');
+        width: 336px;
+        height: 48px;
+        top: 432px;
+        left: 20px;
+        border-radius: 4px;
+        border: 1px;        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid orange;
+        display: flex;
+        justify-content: space-around;;
+        align-items: center;
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: right;
+        width: 315px;
+        height: 396px;
+        top: 512px;
+        left: 31px;
+    }
+    
+    .text {
+        width: 111.33px;
+        height: 20px;
+        top: 446px;
+        left: 36px;
+        
+    }
+
+    .search {
+        width: 23.81px;
+        height: 24px;
+        top: 444px;
+        left: 316px;
+        
+    }
+
+    .market-info {
+        width: 315px;
+        height: 120px;
+        top: 512px;
+        left: 31px;
+        font-family: 'Encode Sans';
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: center;
+        
+    }
+
+    .download-info{
+        width: 277px;
+        height: 60px;
+        top: 648px;
+        left: 50px;
+        font-family: 'Encode Sans';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        
+    }
+
+    .checkmarks {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 10vh;
+    }
+
+    .button {
+        color: white;
+        padding: 15px 32px;
+        border-radius: 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: darkblue;
+    }
+
+    .footer {
+        width: 165px;
+        height: 20px;
+        top: 950px;
+        left: 105px;      
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        background: #B6BBC9;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440px){
+    html {
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+    
+    body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+        margin: 0;
+        padding: 0;
+        font-weight: lighter;
+    }
+    
+    body{
+        font-family: 'Encode Sans Condensed';
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: darkblue;
+        padding: 15px 0;
+    }
+
+    .header {
+        color: orange;
+        text-align: center;
+        width: 273px;
+        height: 95px;
+        top: 33px;
+        left: 247px;
+    }
+
+    .header-list {
+        list-style-type: none;
+        color: darkblue;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .phone {
+        width: 402px;
+        height: 286px;
+        top: 165px;
+        left: 213px;  
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 608px;
+        height: 353px;
+        top: 270px;
+        left: 120px;
+    }
+
+    .search-bar {
+        color: grey;
+        background-image: url('../images/search-icon-white.svg');
+        width: 640px;
+        height: 48px;
+        top: 488px;
+        left: 64px;
+        border-radius: 4px;
+        border: 1px;        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid orange;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .text {
+        width: 182.57px;
+        height: 20px;
+        top: 502px;
+        left: 80px;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;        
+    }
+
+    .search {
+        width: 23.81px;
+        height: 24px;
+        top: 500px;
+        left: 664px;
+    }
+
+    .market-info {
+        width: 661px;
+        height: 80px;
+        top: 578px;
+        left: 54px; 
+        font-family: 'Encode Sans';
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: center;            
+    }
+
+    .download-info{
+        width: 489px;
+        height: 39px;
+        top: 674px;
+        left: 140px;
+        font-family: 'Encode Sans';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .checkmarks {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .button {
+        color: white;
+        padding: 15px 32px;
+        border-radius: 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: darkblue;
+    }
+
+    .footer {
+        width: 165px;
+        height: 20px;
+        top: 956px;
+        left: 302px;       
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;        
+        background: #B6BBC9;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    html {
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+    
+    body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+        margin: 0;
+        padding: 0;
+        font-weight: lighter;
+    }
+    
+    body{
+        font-family: 'Encode Sans Condensed';
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: darkblue;
+        padding: 15px 0;
+    }
+    
+    .header {
+        color: orange;
+        text-align: center;
+        width: 1200px;
+        height: 58px;
+        top: 25px;
+        left: 120px;
+        padding: 0px, 0px, 0px, 3px;        
+    }
+    
+    .header-list {
+        list-style-type: none;
+        color: darkblue;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .search-bar {
+        color: grey;
+        background-image: url('../images/search-icon-white.svg');
+        width: 592px;
+        height: 48px;
+        top: 187px;
+        left: 121px;
+        border-radius: 4px;
+        border: 1px;  
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid orange;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 608px;
+        height: 353px;
+        top: 270px;
+        left: 120px;
+    }
+    
+    .phone {
+        width: 623px;
+        height: 444px;
+        top: 179px;
+        left: 761px;      
+    }
+    
+    .text {
+        width: 182.57px;
+        height: 20px;
+        top: 201px;
+        left: 136px;
+        font-family: 'Roboto';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;    
+    }
+    
+    .search {
+        width: 23.81px;
+        height: 24px;
+        top: 199px;
+        left: 673px;   
+    }
+    
+    .market-info {
+        width: 608px;
+        height: 120px;
+        top: 270px;
+        left: 120px;
+        font-family: 'Encode Sans';
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 60px;
+        letter-spacing: 0px;
+        text-align: left;        
+    }
+    
+    .download-info{
+        width: 570px;
+        height: 96px;
+        top: 412px;
+        left: 120px;
+        font-family: 'Encode Sans';
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;        
+    }
+    
+    .checkmarks {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .button {
+        color: white;
+        padding: 15px 32px;
+        border-radius: 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: darkblue;
+    }
+    
+    .footer {
+        width: 311px;
+        height: 20px;
+        top: 866px;
+        left: 565px;        
+        font-family: 'Roboto';
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        background: #B6BBC9;
+    }
+}
