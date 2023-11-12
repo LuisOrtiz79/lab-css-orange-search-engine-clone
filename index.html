@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&family=Fasthand&family=Moon+Dance&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/style.css">
     <title>Orange Search Engine Clone</title>
 </head>
@@ -20,10 +23,10 @@
 
     <img class="phone" src = "images/orange-search-engine-desktop.png" alt="Orange phone"/>
 
-    <section class="search-bar">
-        <p class="text">Search the web</p>
-        <img class="search" src = "/images/search-icon.svg" alt="Search icon"/>
-    </section>
+    <form class="search-bar">
+        <input type="text" placeholder="Search the web">
+        <input id="search" type="image" src="./images/search-icon.svg" alt="search" >
+    </form>
 
     <section class="info">
         <h3 class="market-info">Tired of your data being squeezed? Here to help!</h3>
@@ -39,14 +42,15 @@
         </ul>
 
         <div>
-            <button class="button">Download now</button>
+            <button>Download now</button>
+
             <div>
-                <img src = "/images/star-blue-icon.svg" alt="Blue star"/>
-                <img src = "/images/star-blue-icon.svg" alt="Blue star"/>
-                <img src = "/images/star-blue-icon.svg" alt="Blue star"/>
-                <img src = "/images/star-blue-icon.svg" alt="Blue star"/>
-                <img src = "/images/star-grey-icon.svg" alt="Grey star"/>
-                <p>Rate 4/5</p>
+                <img src="./images/star-blue-icon.svg" alt="blue-icon">
+                <img src="./images/star-blue-icon.svg" alt="blue-icon">
+                <img src="./images/star-blue-icon.svg" alt="blue-icon">
+                <img src="./images/star-blue-icon.svg" alt="blue-icon">
+                <img src="./images/star-grey-icon.svg" alt="grey-icon">
+                <p>Rated 4/5</p>
             </div>
         </div>
     </section>
